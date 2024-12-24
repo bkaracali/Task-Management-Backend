@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zival\\Desktop\\Cproject\\Sequential-Task-Management-System\\SequentialTaskManager\\SequentialTaskManager.csproj": {}
+    "C:\\Users\\Bora\\Desktop\\stm\\SequentialTaskManager\\SequentialTaskManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zival\\Desktop\\Cproject\\Sequential-Task-Management-System\\SequentialTaskManager\\SequentialTaskManager.csproj": {
+    "C:\\Users\\Bora\\Desktop\\stm\\SequentialTaskManager\\SequentialTaskManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zival\\Desktop\\Cproject\\Sequential-Task-Management-System\\SequentialTaskManager\\SequentialTaskManager.csproj",
+        "projectUniqueName": "C:\\Users\\Bora\\Desktop\\stm\\SequentialTaskManager\\SequentialTaskManager.csproj",
         "projectName": "SequentialTaskManager",
-        "projectPath": "C:\\Users\\zival\\Desktop\\Cproject\\Sequential-Task-Management-System\\SequentialTaskManager\\SequentialTaskManager.csproj",
-        "packagesPath": "C:\\Users\\zival\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zival\\Desktop\\Cproject\\Sequential-Task-Management-System\\SequentialTaskManager\\obj\\",
+        "projectPath": "C:\\Users\\Bora\\Desktop\\stm\\SequentialTaskManager\\SequentialTaskManager.csproj",
+        "packagesPath": "C:\\Users\\Bora\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bora\\Desktop\\stm\\SequentialTaskManager\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\zival\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Bora\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
