@@ -1,4 +1,4 @@
-﻿namespace deneme
+﻿namespace Data
 {
     public class Class1
     {

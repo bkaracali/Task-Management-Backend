@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SequentialTaskManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+098baf8dcdbece8e28837ef28a795599474068df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f25a3f6eec4b022f89202e3024f084835eb9e2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SequentialTaskManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SequentialTaskManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
