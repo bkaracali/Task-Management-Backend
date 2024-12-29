@@ -10,7 +10,7 @@ namespace Repo.Soyut
 {
     public interface IRepository<T> 
     {
-        Task <IEnumerable<T>> GetAll();
+        Task<IEnumerable<T>> GetAll();
         T GetById(int id);       
         void  Add(T entity);
         void  Update(T entity);

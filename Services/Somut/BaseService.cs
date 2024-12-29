@@ -21,6 +21,18 @@ namespace Services.Somut
         {
             _repository.Delete(id);
         }
+        public void Add(int id)
+        {
+            _repository.Delete(id);
+        }
+        public void Update(int id) { 
+        }
+        public Task<IEnumerable<T>> GetAll()
+        {
+            return _repository.GetAll();
+        }
+
+
     }
 }
 
