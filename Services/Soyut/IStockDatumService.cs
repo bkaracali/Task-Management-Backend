@@ -11,6 +11,8 @@ namespace Services.Soyut
 {
     public interface IStockDatumService
     {
-        
+        public Task<Security> GetDataFromYahoo(string symbol, int userid);
+
+
     }
 }

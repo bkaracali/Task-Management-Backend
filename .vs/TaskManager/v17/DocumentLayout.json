@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#projebe\\kadrcankahvci\\sequential-task-management-system\\services\\somut\\stockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\somut\\stockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#projebe\\kadrcankahvci\\sequential-task-management-system\\services\\somut\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\somut\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#projebe\\kadrcankahvci\\sequential-task-management-system\\katman1\\soyut\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|solutionrelative:katman1\\soyut\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#projebe\\kadrcankahvci\\sequential-task-management-system\\services\\somut\\stockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\somut\\stockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#projebe\\kadrcankahvci\\sequential-task-management-system\\services\\soyut\\istockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\soyut\\istockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#projebe\\kadrcankahvci\\sequential-task-management-system\\katman1\\somut\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|solutionrelative:katman1\\somut\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#projebe\\kadrcankahvci\\sequential-task-management-system\\services\\somut\\yahooservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\somut\\yahooservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#projebe\\kadrcankahvci\\sequential-task-management-system\\services\\soyut\\iyahoobackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\soyut\\iyahoobackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#projebe\\kadrcankahvci\\sequential-task-management-system\\katman1\\soyut\\iuserstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|solutionrelative:katman1\\soyut\\iuserstockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 235,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,28 +46,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Katman1\\Somut\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "Katman1\\Somut\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Katman1\\Somut\\BaseRepository.cs",
-              "RelativeToolTip": "Katman1\\Somut\\BaseRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAlwCwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StockDatumService.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Services\\Somut\\StockDatumService.cs",
+              "RelativeDocumentMoniker": "Services\\Somut\\StockDatumService.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Services\\Somut\\StockDatumService.cs",
+              "RelativeToolTip": "Services\\Somut\\StockDatumService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T19:04:34.937Z",
+              "WhenOpened": "2024-12-29T18:38:17.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Katman1\\Soyut\\IRepository.cs",
-              "RelativeDocumentMoniker": "Katman1\\Soyut\\IRepository.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Katman1\\Soyut\\IRepository.cs",
-              "RelativeToolTip": "Katman1\\Soyut\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Services\\Somut\\BaseService.cs",
+              "RelativeDocumentMoniker": "Services\\Somut\\BaseService.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Services\\Somut\\BaseService.cs",
+              "RelativeToolTip": "Services\\Somut\\BaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T19:02:13.048Z",
+              "WhenOpened": "2024-12-29T19:18:10.724Z",
               "EditorCaption": ""
             },
             {
@@ -70,23 +78,48 @@
               "RelativeDocumentMoniker": "Services\\Soyut\\IStockDatumService.cs",
               "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Services\\Soyut\\IStockDatumService.cs",
               "RelativeToolTip": "Services\\Soyut\\IStockDatumService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T18:49:56.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "StockDatumService.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Services\\Somut\\StockDatumService.cs",
-              "RelativeDocumentMoniker": "Services\\Somut\\StockDatumService.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Services\\Somut\\StockDatumService.cs",
-              "RelativeToolTip": "Services\\Somut\\StockDatumService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "YahooService.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Services\\Somut\\YahooService.cs",
+              "RelativeDocumentMoniker": "Services\\Somut\\YahooService.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Services\\Somut\\YahooService.cs",
+              "RelativeToolTip": "Services\\Somut\\YahooService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T18:38:17.961Z",
+              "WhenOpened": "2024-12-29T19:16:23.525Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IYahooBackgroundService.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Services\\Soyut\\IYahooBackgroundService.cs",
+              "RelativeDocumentMoniker": "Services\\Soyut\\IYahooBackgroundService.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Services\\Soyut\\IYahooBackgroundService.cs",
+              "RelativeToolTip": "Services\\Soyut\\IYahooBackgroundService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:16:53.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserStockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Katman1\\Soyut\\IUserStockRepository.cs",
+              "RelativeDocumentMoniker": "Katman1\\Soyut\\IUserStockRepository.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\Katman1\\Soyut\\IUserStockRepository.cs",
+              "RelativeToolTip": "Katman1\\Soyut\\IUserStockRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:20:58.798Z"
             }
           ]
         },

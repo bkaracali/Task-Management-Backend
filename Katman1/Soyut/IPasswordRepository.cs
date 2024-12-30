@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using YahooFinanceApi;
+using Enitites.Models;
 
-namespace Services.Somut
+namespace Repo.Soyut
 {
-    public class YahooService
+    public interface IPasswordRepository : IRepository<PasswordTask>
     {
+
     }
 }

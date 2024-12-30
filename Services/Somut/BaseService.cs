@@ -12,7 +12,7 @@ namespace Services.Somut
 {
     public class BaseService<T> : IBaseService<T> where T : class   // oracleRepo MyRepo  Irepo
     {
-        private readonly BaseRepository<T> _repository;     
+        protected  readonly BaseRepository<T> _repository;     
 
         public BaseService(BaseRepository<T> repository) { 
             _repository = repository;   // Dependency Injection
