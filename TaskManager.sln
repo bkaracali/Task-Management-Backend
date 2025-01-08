@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Servic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{349BF5C7-1055-428D-87EC-5E8E5396B8BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{349BF5C7-1055-428D-87EC-5E8E5396B8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{349BF5C7-1055-428D-87EC-5E8E5396B8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{349BF5C7-1055-428D-87EC-5E8E5396B8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{349BF5C7-1055-428D-87EC-5E8E5396B8BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
