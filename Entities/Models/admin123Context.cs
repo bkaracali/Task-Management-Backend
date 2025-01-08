@@ -4,21 +4,24 @@ using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-
-namespace deneme.Models;
+namespace Entities.Models;
 
 public partial class admin123Context : DbContext
 {
+    public admin123Context()
+    {
+    }
+
     public admin123Context(DbContextOptions<admin123Context> options)
         : base(options)
     {
     }
 
+    public virtual DbSet<Job> Jobs { get; set; }
+
     public virtual DbSet<PasswordTask> PasswordTasks { get; set; }
 
     public virtual DbSet<StockDatum> StockData { get; set; }
-
-    public virtual DbSet<Task> Tasks { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
 
@@ -26,29 +29,48 @@ public partial class admin123Context : DbContext
 
     public virtual DbSet<UserStock> UserStocks { get; set; }
 
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseNpgsql("Host=localhost;Database=admin123;Username=admin123;Password=kadircanborasemih;Persist Security Info=True");
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Job>(entity =>
+        {
+            entity.HasKey(e => e.JobId).HasName("Task_pkey");
+
+            entity.ToTable("Job", "C#DB");
+
+            entity.Property(e => e.JobId)
+                .HasDefaultValueSql("nextval('\"C#DB\".\"Task_task_id_seq\"'::regclass)")
+                .HasColumnName("Job_id");
+            entity.Property(e => e.Description).HasColumnName("description");
+            entity.Property(e => e.Name)
+                .IsRequired()
+                .HasMaxLength(255)
+                .HasColumnName("name");
+            entity.Property(e => e.ScheduleInterval).HasColumnName("schedule_interval");
+        });
+
         modelBuilder.Entity<PasswordTask>(entity =>
         {
             entity.HasKey(e => e.PasswordTaskId).HasName("password_task_pkey");
 
             entity.ToTable("password_task", "C#DB");
 
-            entity.Property(e => e.PasswordTaskId)
-                .HasDefaultValueSql("nextval('\"C#DB\".password_task_password_task_id_seq1'::regclass)")
-                .HasColumnName("password_task_id");
+            entity.Property(e => e.PasswordTaskId).HasColumnName("password_task_id");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("now()")
                 .HasColumnType("timestamp without time zone")
                 .HasColumnName("created_at");
             entity.Property(e => e.DefaultMessage).HasColumnName("default_message");
+            entity.Property(e => e.JobId).HasColumnName("Job_id");
             entity.Property(e => e.ReminderInterval).HasColumnName("reminder_interval");
-            entity.Property(e => e.TaskId).HasColumnName("task_id");
 
-            entity.HasOne(d => d.Task).WithMany(p => p.PasswordTasks)
-                .HasForeignKey(d => d.TaskId)
+            entity.HasOne(d => d.Job).WithMany(p => p.PasswordTasks)
+                .HasForeignKey(d => d.JobId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("password_task_task_id_fkey");
+                .HasConstraintName("password_task_job_fk");
         });
 
         modelBuilder.Entity<StockDatum>(entity =>
@@ -65,36 +87,22 @@ public partial class admin123Context : DbContext
                 .HasMaxLength(50)
                 .HasColumnName("data_type");
             entity.Property(e => e.FetchInterval).HasColumnName("fetch_interval");
+            entity.Property(e => e.FiftyTwoWeekHigh).HasPrecision(18, 2);
+            entity.Property(e => e.FiftyTwoWeekLow).HasPrecision(18, 2);
+            entity.Property(e => e.JobId).HasColumnName("Job_id");
             entity.Property(e => e.LastFetched)
                 .HasColumnType("timestamp without time zone")
                 .HasColumnName("last_fetched");
+            entity.Property(e => e.RegularMarketPrice).HasPrecision(18, 2);
             entity.Property(e => e.StockSymbol)
                 .IsRequired()
                 .HasMaxLength(20)
                 .HasColumnName("stock_symbol");
-            entity.Property(e => e.TaskId).HasColumnName("task_id");
 
-            entity.HasOne(d => d.Task).WithMany(p => p.StockData)
-                .HasForeignKey(d => d.TaskId)
+            entity.HasOne(d => d.Job).WithMany(p => p.StockData)
+                .HasForeignKey(d => d.JobId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("stock_data_fetch_task_task_id_fkey");
-        });
-
-        modelBuilder.Entity<Task>(entity =>
-        {
-            entity.HasKey(e => e.TaskId).HasName("Task_pkey");
-
-            entity.ToTable("Task", "C#DB");
-
-            entity.Property(e => e.TaskId)
-                .HasDefaultValueSql("nextval('\"C#DB\".\"Task_task_id_seq1\"'::regclass)")
-                .HasColumnName("task_id");
-            entity.Property(e => e.Description).HasColumnName("description");
-            entity.Property(e => e.Name)
-                .IsRequired()
-                .HasMaxLength(255)
-                .HasColumnName("name");
-            entity.Property(e => e.ScheduleInterval).HasColumnName("schedule_interval");
+                .HasConstraintName("stock_data_job_fk");
         });
 
         modelBuilder.Entity<User>(entity =>
@@ -105,9 +113,7 @@ public partial class admin123Context : DbContext
 
             entity.HasIndex(e => e.Email, "users_email_key").IsUnique();
 
-            entity.Property(e => e.Userid)
-                .HasDefaultValueSql("nextval('\"C#DB\".users_userid_seq1'::regclass)")
-                .HasColumnName("userid");
+            entity.Property(e => e.Userid).HasColumnName("userid");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("CURRENT_TIMESTAMP")
                 .HasColumnType("timestamp without time zone")
@@ -140,9 +146,7 @@ public partial class admin123Context : DbContext
 
             entity.ToTable("user_password", "C#DB");
 
-            entity.Property(e => e.UserPasswordId)
-                .HasDefaultValueSql("nextval('\"C#DB\".user_password_user_password_id_seq1'::regclass)")
-                .HasColumnName("user_password_id");
+            entity.Property(e => e.UserPasswordId).HasColumnName("user_password_id");
             entity.Property(e => e.PasswordId).HasColumnName("password_id");
             entity.Property(e => e.UserId).HasColumnName("user_id");
 
@@ -163,9 +167,7 @@ public partial class admin123Context : DbContext
 
             entity.ToTable("user_stock", "C#DB");
 
-            entity.Property(e => e.UserStockId)
-                .HasDefaultValueSql("nextval('\"C#DB\".user_stock_user_stock_id_seq1'::regclass)")
-                .HasColumnName("user_stock_id");
+            entity.Property(e => e.UserStockId).HasColumnName("user_stock_id");
             entity.Property(e => e.StockId).HasColumnName("stock_id");
             entity.Property(e => e.UserId).HasColumnName("user_id");
 
@@ -179,14 +181,6 @@ public partial class admin123Context : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("user_stock_user_id_fkey");
         });
-        modelBuilder.HasSequence("jobexecutions_history_id_seq", "C#DB").HasMin(0L);
-        modelBuilder.HasSequence("jobs_job_id_seq", "C#DB").HasMin(0L);
-        modelBuilder.HasSequence("password_task_password_task_id_seq", "C#DB").HasMax(2147483647L);
-        modelBuilder.HasSequence("stock_data_fetch_task_stock_task_id_seq", "C#DB").HasMax(2147483647L);
-        modelBuilder.HasSequence("Task_task_id_seq", "C#DB").HasMax(2147483647L);
-        modelBuilder.HasSequence("user_password_user_password_id_seq", "C#DB").HasMax(2147483647L);
-        modelBuilder.HasSequence("user_stock_user_stock_id_seq", "C#DB").HasMax(2147483647L);
-        modelBuilder.HasSequence("users_userid_seq", "C#DB").HasMax(2147483647L);
 
         OnModelCreatingPartial(modelBuilder);
     }

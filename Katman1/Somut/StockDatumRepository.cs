@@ -1,4 +1,5 @@
-﻿using Enitites.Models;
+﻿using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using Repo.Soyut;
 using System;
 using System.Collections.Generic;
@@ -13,5 +14,7 @@ namespace Repo.Somut
         public StockDatumRepository(admin123Context dbcontext) : base(dbcontext)
         {
         }
+
+      
     }
 }

@@ -1,4 +1,4 @@
-﻿using Enitites.Models;
+﻿using Entities.Models;
 using Repo.Soyut;
 using System;
 using System.Collections.Generic;

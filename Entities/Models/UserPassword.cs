@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Enitites.Models;
+namespace Entities.Models;
 
 public partial class UserPassword
 {

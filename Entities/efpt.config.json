@@ -3,27 +3,27 @@
    "ContextClassName": "admin123Context",
    "ContextNamespace": null,
    "FilterSchemas": false,
-   "IncludeConnectionString": false,
+   "IncludeConnectionString": true,
    "ModelNamespace": null,
    "OutputContextPath": null,
    "OutputPath": "Models",
    "PreserveCasingWithRegex": true,
-   "ProjectRootNamespace": "deneme",
+   "ProjectRootNamespace": "Entities",
    "Schemas": null,
    "SelectedHandlebarsLanguage": 2,
    "SelectedToBeGenerated": 0,
    "T4TemplatePath": null,
    "Tables": [
       {
+         "Name": "C#DB.Job",
+         "ObjectType": 0
+      },
+      {
          "Name": "C#DB.password_task",
          "ObjectType": 0
       },
       {
          "Name": "C#DB.Stock_Data",
-         "ObjectType": 0
-      },
-      {
-         "Name": "C#DB.Task",
          "ObjectType": 0
       },
       {

@@ -3,13 +3,13 @@
 using System;
 using System.Collections.Generic;
 
-namespace deneme.Models;
+namespace Entities.Models;
 
 public partial class PasswordTask
 {
     public int PasswordTaskId { get; set; }
 
-    public int TaskId { get; set; }
+    public int JobId { get; set; }
 
     public TimeSpan ReminderInterval { get; set; }
 
@@ -17,7 +17,7 @@ public partial class PasswordTask
 
     public DateTime? CreatedAt { get; set; }
 
-    public virtual Task Task { get; set; }
+    public virtual Job Job { get; set; }
 
     public virtual ICollection<UserPassword> UserPasswords { get; set; } = new List<UserPassword>();
 }

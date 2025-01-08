@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace deneme.Models;
+namespace Entities.Models;
 
 public partial class UserStock
 {

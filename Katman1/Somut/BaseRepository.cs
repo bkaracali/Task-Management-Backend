@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Enitites.Models;
+using Entities.Models;
 
 namespace Repo.Somut
 {
     public class BaseRepository<T> : IRepository<T> where T : class
     {
-        private readonly DbContext _dbContext;
-        private readonly DbSet<T> _tables; // operasyonun yapilacagi tableyi tespit eden
+       protected readonly DbContext _dbContext;
+        protected readonly DbSet<T> _tables; // operasyonun yapilacagi tableyi tespit eden
 
         public BaseRepository(admin123Context dbcontext)
         {
@@ -68,6 +68,10 @@ namespace Repo.Somut
             _tables.Update(entity);
             _dbContext.SaveChanges();
 
+        }
+        public IEnumerable<T> Find(Func<T, bool> predicate)
+        {
+            return _tables.AsQueryable().Where(predicate).ToList();
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿
-using Enitites.Models;
+using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 using Repo.Soyut;
 using System;

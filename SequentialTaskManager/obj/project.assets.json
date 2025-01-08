@@ -2873,11 +2873,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kdrcn\\Masaüstü\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\SequentialTaskManager\\SequentialTaskManager.csproj",
+      "projectUniqueName": "C:\\Users\\kdrcn\\Masaüstü\\ituC#projeBE\\SequentialTaskManager\\SequentialTaskManager.csproj",
       "projectName": "SequentialTaskManager",
-      "projectPath": "C:\\Users\\kdrcn\\Masaüstü\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\SequentialTaskManager\\SequentialTaskManager.csproj",
+      "projectPath": "C:\\Users\\kdrcn\\Masaüstü\\ituC#projeBE\\SequentialTaskManager\\SequentialTaskManager.csproj",
       "packagesPath": "C:\\Users\\kdrcn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kdrcn\\Masaüstü\\ituC#projeBE\\kadrcankahvci\\Sequential-Task-Management-System\\SequentialTaskManager\\obj\\",
+      "outputPath": "C:\\Users\\kdrcn\\Masaüstü\\ituC#projeBE\\SequentialTaskManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

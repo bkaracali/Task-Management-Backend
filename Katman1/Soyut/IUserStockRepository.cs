@@ -1,4 +1,4 @@
-﻿using Enitites.Models;
+﻿using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,5 +9,6 @@ namespace Repo.Soyut
 {
     public interface IUserStockRepository : IRepository<UserStock>
     {
+        bool Exists(UserStock userstock);
     }
 }

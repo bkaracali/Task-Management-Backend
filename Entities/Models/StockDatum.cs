@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Enitites.Models;
+namespace Entities.Models;
 
 public partial class StockDatum
 {
@@ -18,6 +18,12 @@ public partial class StockDatum
     public TimeSpan FetchInterval { get; set; }
 
     public DateTime? LastFetched { get; set; }
+
+    public decimal? RegularMarketPrice { get; set; }
+
+    public decimal? FiftyTwoWeekHigh { get; set; }
+
+    public decimal? FiftyTwoWeekLow { get; set; }
 
     public virtual Job Job { get; set; }
 
