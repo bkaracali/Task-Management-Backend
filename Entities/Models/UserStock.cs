@@ -2,15 +2,17 @@
 #nullable disable
 using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace Entities.Models;
 
 public partial class UserStock
 {
+ 
     public int UserStockId { get; set; }
 
     public int UserId { get; set; }
-
+   
     public int StockId { get; set; }
 
     public virtual StockDatum Stock { get; set; }

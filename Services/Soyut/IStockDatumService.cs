@@ -11,7 +11,7 @@ namespace Services.Soyut
 {
     public interface IStockDatumService : IBaseService<StockDatum>
     {
-        public Task<Security> GetDataFromYahoo(string symbol, int userid);
+        public Task<StockDatum> GetDataFromYahoo(string symbol, int userid/* TimeSpan fetchinterval */);
 
 
     }

@@ -12,8 +12,10 @@ namespace Services.Somut
 {
     public class UserStockService : BaseService<UserStock>, IUserStockService
     {
-        public UserStockService(BaseRepository<UserStock> repository) : base(repository)
+        private readonly IUserStockRepository _userStockRepository;
+        public UserStockService(IUserStockRepository repository) : base(repository)
         {
+            _userStockRepository= repository;
         }
     }
 }

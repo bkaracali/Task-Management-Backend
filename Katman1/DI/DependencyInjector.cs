@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repo.DI
 {
-    public static class ReposDI
+    public static class RepoDI
     {
         public static void Init(IServiceCollection services)
         {
@@ -17,12 +17,11 @@ namespace Repo.DI
 
             // Repository konfigürasyonu
 
-           services.AddScoped<IJobRepository, JobRepository>();
-            services.AddScoped<IPasswordRepository, PasswordRepository>();
-            services.AddScoped<IStockDatumRepository, StockDatumRepository>();
-            services.AddScoped<IUserPasswordRepository, UserPasswordRepository>();
+           
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IStockDatumRepository, StockDatumRepository>();
             services.AddScoped<IUserStockRepository, UserStockRepository>();
+
 
 
             // Diğer servis konfigürasyonları burada yapılabilir

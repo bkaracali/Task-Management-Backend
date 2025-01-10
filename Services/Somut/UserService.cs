@@ -11,10 +11,11 @@ namespace Services.Somut
 {
     internal class UserService : BaseService<User>, IUserService
     {
-
-        public UserService(BaseRepository<User> repository) : base(repository)
+        private readonly IUserRepository _userRepository;
+        public UserService(IUserRepository repository) : base(repository)
         {
+            _userRepository = repository;
+
         }
-        
     }
 }

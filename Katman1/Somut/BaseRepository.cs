@@ -30,7 +30,7 @@ namespace Repo.Somut
         public void Delete(int id)
         {
 
-            var entity = _tables.FirstOrDefault(t => t.Equals(id));
+            var entity = _tables.Find(id);
             if (entity != null)
             {
                 _tables.Remove(entity);
@@ -52,7 +52,7 @@ namespace Repo.Somut
 
         public T GetById(int id)
         {
-            var entity = _tables.FirstOrDefault(t => t.Equals(id));
+            var entity = _tables.Find(id);
             if (entity != null)
             {
                 return entity;

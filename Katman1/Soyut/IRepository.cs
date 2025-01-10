@@ -8,7 +8,7 @@ using Entities.Models;
 
 namespace Repo.Soyut
 {
-    public interface IRepository<T> 
+    public interface IRepository<T> where T : class
     {
         Task<IEnumerable<T>> GetAll();  // admin kullanicilarinin site "ogelerini" listeeler
         T GetById(int id);       

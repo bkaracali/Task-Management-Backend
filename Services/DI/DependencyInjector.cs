@@ -1,5 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Entities.Models;
+using Microsoft.Extensions.DependencyInjection;
 using Repo.DI;
+using Repo.Somut;
+using Repo.Soyut;
 using Services.Somut;
 using Services.Soyut;
 using System;
@@ -14,15 +17,14 @@ namespace Services.DI
     {
         public static void Init(IServiceCollection services)
         {
-            services.AddScoped<IJobService, JobService>();
-            services.AddScoped<IPasswordService, PasswordService>();
+           
+            services.AddScoped<IUserService,UserService>();
             services.AddScoped<IStockDatumService, StockDatumService>();
-            services.AddScoped<IUserPasswordService, UserPasswordService>();
-            services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserStockService, UserStockService>();
-            
 
-            ReposDI.Init(services);
+
+
+            RepoDI.Init(services);
 
         }
 

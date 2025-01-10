@@ -7,6 +7,7 @@ namespace Entities.Models;
 
 public partial class StockDatum
 {
+
     public int StockId { get; set; }
 
     public int JobId { get; set; }

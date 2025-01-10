@@ -12,13 +12,17 @@ namespace Services.Somut
 {
     public class StockDatumService : BaseService<StockDatum>, IStockDatumService
     {
-        private readonly IUserStockRepository userStockRepository;
-        public StockDatumService(BaseRepository<StockDatum> repository ) : base(repository)
+        private readonly IStockDatumRepository _stockDatumRepository;
+        private readonly IUserStockRepository _userStockRepository;
+
+        private readonly IUserRepository _userRepository;
+        public StockDatumService(IStockDatumRepository repository, IUserStockRepository userStockRepository, IUserRepository userRepository) : base(repository)
         {
-          
-            
+            _stockDatumRepository = repository;
+            _userStockRepository = userStockRepository;
+            _userRepository = userRepository;
         }
-        public async Task<Security> GetDataFromYahoo( string symbol, int userid) 
+        public async Task<StockDatum> GetDataFromYahoo(string symbol, int userid/* TimeSpan fetchinterval */ )
         {
             // yahoo ya gidiyo input olarak cekiyo 
             // gelen veriyi stockdatuma cevirip db ye kaydediyor/
@@ -55,11 +59,11 @@ namespace Services.Somut
                 if (existingStockDatum != null)
                 {
                     // Mevcut kaydı güncelle
-                    existingStockDatum.RegularMarketPrice = data[Field.RegularMarketPrice] as decimal?;
-                    existingStockDatum.FiftyTwoWeekHigh = data[Field.FiftyTwoWeekHigh] as decimal?;
-                    existingStockDatum.FiftyTwoWeekLow = data[Field.FiftyTwoWeekLow] as decimal?;
-                    existingStockDatum.LastFetched = data[Field.RegularMarketTime] as DateTime?;
-
+                    existingStockDatum.RegularMarketPrice = Convert.ToDecimal(data.RegularMarketPrice);
+                    existingStockDatum.FiftyTwoWeekHigh = Convert.ToDecimal(data.FiftyTwoWeekHigh);
+                    existingStockDatum.FiftyTwoWeekLow = Convert.ToDecimal(data.FiftyTwoWeekLow);
+                    existingStockDatum.LastFetched = DateTimeOffset.FromUnixTimeSeconds(data.RegularMarketTime).DateTime;  // 1 ADET DAHA KOLON EKLENEREK BASILAN ZAMAN  ILE YAHOO NUN ALDIGI ZAMAN KARSILASTIRILABILIR
+                    //existingStockDatum.FetchInterval = fetchinverval;
                     _repository.Update(existingStockDatum);
                 }
                 else
@@ -69,32 +73,52 @@ namespace Services.Somut
                     {
                         StockSymbol = symbol,
                         DataType = "YahooFinance",
-                        RegularMarketPrice = data[Field.RegularMarketPrice] as decimal?,
-                        FiftyTwoWeekHigh = data[Field.FiftyTwoWeekHigh] as decimal?,
-                        FiftyTwoWeekLow = data[Field.FiftyTwoWeekLow] as decimal?,
-                        LastFetched = data[Field.RegularMarketTime] as DateTime?,
+                        RegularMarketPrice = Convert.ToDecimal(data.RegularMarketPrice),
+                        FiftyTwoWeekHigh = Convert.ToDecimal(data.FiftyTwoWeekHigh),
+                        FiftyTwoWeekLow = Convert.ToDecimal(data.FiftyTwoWeekLow),
+                        LastFetched = DateTimeOffset.FromUnixTimeSeconds(data.RegularMarketTime).DateTime,
                         JobId = 1,
+
                     };
 
                     _repository.Add(existingStockDatum);
                 }
-
-
+                var testuser = new User
+                {
+                    Userid = userid
+                };
+                var checkexistuser = _userRepository.Find(sd => sd.Userid == userid).FirstOrDefault();
+                if (checkexistuser == null)
+                {
+                    throw new Exception("Kullanıcı bulunamadı.");
+                }
                 var data2 = new UserStock
                 {
                     UserId = userid,
                     StockId = existingStockDatum.StockId,
                 };
-                if (!userStockRepository.Exists(data2)) {
-                   userStockRepository.Add(data2);
+
+                if (!_userStockRepository.Exists(data2))
+                {
+                    _userStockRepository.Add(data2);
                 }
-                
-                                               
-                return data;
+
+
+
+
+                return existingStockDatum;
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Hisse verileri alınırken hata oluştu: {ex.Message}");
+                Console.WriteLine("Hata Mesajı: " + ex.Message);
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine("Inner Exception: " + ex.InnerException.Message);
+                    if (ex.InnerException.InnerException != null)
+                    {
+                        Console.WriteLine("Dahili Inner Exception: " + ex.InnerException.InnerException.Message);
+                    }
+                }
                 throw;
             }
         }

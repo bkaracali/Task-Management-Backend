@@ -11,7 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<admin123Context>(options =>
-                   options.UseNpgsql("Persist Security Info=True;Password=kadircanborasemih;Username=admin123;Database=admin123;Host=localhost"));
+                   options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 ServiceDI.Init(builder.Services);
 
 var app = builder.Build();
