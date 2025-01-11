@@ -21,6 +21,9 @@ namespace Repo.DI
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IStockDatumRepository, StockDatumRepository>();
             services.AddScoped<IUserStockRepository, UserStockRepository>();
+            services.AddScoped<IPasswordRepository, PasswordRepository>();
+            services.AddScoped<IUserPasswordRepository, UserPasswordRepository>();
+           
 
 
 

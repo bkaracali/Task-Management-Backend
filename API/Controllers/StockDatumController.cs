@@ -11,10 +11,12 @@ namespace API.Controllers
     public class StockDatumController : ControllerBase
     {
         private readonly IStockDatumService _stockDatumService;
+        private readonly IUserStockService _userStockService;
 
-        public StockDatumController(IStockDatumService stockDatumService)
+        public StockDatumController(IStockDatumService stockDatumService, IUserStockService userStockService)
         {
             _stockDatumService = stockDatumService;
+            _userStockService = userStockService;
         }
 
         // GET: api/StockDatum
@@ -68,6 +70,11 @@ namespace API.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
+            var existingUserStock = _userStockService.Find(st=> st.StockId == id).FirstOrDefault();
+            if (existingUserStock == null) {
+                return NotFound();
+            }
+            _userStockService.Delete(existingUserStock.UserStockId);
             _stockDatumService.Delete(id);
             return NoContent();
         }

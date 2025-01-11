@@ -1,5 +1,6 @@
 ﻿using Entities.Models;
 using Repo.Somut;
+using Repo.Soyut;
 using Services.Soyut;
 using System;
 using System.Collections.Generic;
@@ -11,8 +12,10 @@ namespace Services.Somut
 {
     public class UserPasswordService : BaseService<UserPassword>, IUserPasswordService
     {
-        public UserPasswordService(BaseRepository<UserPassword> repository) : base(repository)
+        protected readonly IUserPasswordRepository _userPasswordRepository;
+        public UserPasswordService(IUserPasswordRepository repository) : base(repository)
         {
+            _userPasswordRepository = repository;
         }
     }
 }

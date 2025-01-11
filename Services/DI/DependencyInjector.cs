@@ -21,6 +21,8 @@ namespace Services.DI
             services.AddScoped<IUserService,UserService>();
             services.AddScoped<IStockDatumService, StockDatumService>();
             services.AddScoped<IUserStockService, UserStockService>();
+            services.AddScoped<IPasswordService, PasswordService>();
+            services.AddScoped<IUserPasswordService, UserPasswordService>();
 
 
 
