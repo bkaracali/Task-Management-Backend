@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\somut\\stockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\somut\\stockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 235,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,7 +82,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T21:41:01.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "StockDatumController.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Controllers\\StockDatumController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\StockDatumController.cs",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IStockDatumService.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Soyut\\IStockDatumService.cs",
               "RelativeDocumentMoniker": "Services\\Soyut\\IStockDatumService.cs",
@@ -104,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StockDatum.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Entities\\Models\\StockDatum.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\StockDatum.cs",
@@ -117,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StockDTO.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\DTO\\StockDTO.cs",
               "RelativeDocumentMoniker": "Services\\DTO\\StockDTO.cs",
@@ -130,20 +147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StockDatumService.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\StockDatumService.cs",
               "RelativeDocumentMoniker": "Services\\Somut\\StockDatumService.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\StockDatumService.cs*",
-              "RelativeToolTip": "Services\\Somut\\StockDatumService.cs*",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowGIAAAA5AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\StockDatumService.cs",
+              "RelativeToolTip": "Services\\Somut\\StockDatumService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwG4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T19:37:23.578Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IStockDatumRepository.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Katman1\\Soyut\\IStockDatumRepository.cs",
               "RelativeDocumentMoniker": "Katman1\\Soyut\\IStockDatumRepository.cs",
@@ -156,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\DTO\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "Services\\DTO\\RegisterDTO.cs",
@@ -168,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Katman1\\Soyut\\IRepository.cs",
               "RelativeDocumentMoniker": "Katman1\\Soyut\\IRepository.cs",
@@ -180,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Entities\\Models\\User.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\User.cs",
@@ -192,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\Somut\\UserService.cs",
@@ -204,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Soyut\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\Soyut\\IUserService.cs",
@@ -216,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\DTO\\LoginDTO.cs",
               "RelativeDocumentMoniker": "Services\\DTO\\LoginDTO.cs",
@@ -228,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
