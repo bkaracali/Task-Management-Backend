@@ -25,7 +25,7 @@ namespace Services.Somut
 
             if (checkUser == null)
             {
-                return null;
+                throw new UnauthorizedAccessException("User does not exist.");
             }
             else
             {
@@ -40,17 +40,22 @@ namespace Services.Somut
 
         }
 
-        public RegisterDTO Register(RegisterDTO registerDTO)
+        public RegisterDTO Register(string name, string email, string password)
         {
             var ConvertToUser = new User
             {
-                Email = registerDTO.Email,
-                Password = registerDTO.Password,
-                Name = registerDTO.Name,
+                Email = email,
+                Password = password,
+                Name = name,
                 Role = "User"
             };
             _repository.Add(ConvertToUser);
-            return registerDTO;
+            return new RegisterDTO
+            {
+                Email = ConvertToUser.Email,
+                Password = ConvertToUser.Password,
+                Name = ConvertToUser.Name,
+            };
         }
     }
 }

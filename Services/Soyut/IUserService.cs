@@ -12,6 +12,6 @@ namespace Services.Soyut
     public interface IUserService : IBaseService<User> 
     {
         LoginDTO AuthUser(string Email,  string password);
-        RegisterDTO Register(RegisterDTO RegisterDTO);
+        RegisterDTO Register(string name, string Email, string password);
     }
 }

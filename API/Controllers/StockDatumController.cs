@@ -37,13 +37,6 @@ namespace API.Controllers
             if (user == null) return NotFound();
             return Ok(user);
         }
-        [HttpPut]
-        public IActionResult Update(StockDatum stockDatum)
-        {
-            _stockDatumService.Update(stockDatum);
-            return NoContent();
-        }
-
 
 
 

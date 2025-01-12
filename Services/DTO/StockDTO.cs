@@ -9,9 +9,9 @@ namespace Services.DTO
     public class StockDTO
     {
         
-        public string StockSymbol { get; set; }
+        public string? StockSymbol { get; set; }
 
-        public string DataType { get; set; }
+        public string? DataType { get; set; }
 
         public TimeSpan FetchInterval { get; set; }
 

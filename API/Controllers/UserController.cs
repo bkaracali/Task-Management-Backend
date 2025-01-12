@@ -33,12 +33,6 @@ namespace API.Controllers
 
      
 
-        [HttpPut]
-        public IActionResult Update(User user)
-        {
-            _userService.Update(user);
-            return NoContent();
-        }
 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
@@ -46,8 +40,9 @@ namespace API.Controllers
             _userService.Delete(id);
             return NoContent();
         }
+
         [HttpPost]
-        public IActionResult Login(string email, string password)
+        public IActionResult? Login(string email, string password)
         {
             // Kullanıcıyı doğrula
             var userDTO = _userService.AuthUser(email, password);
@@ -62,10 +57,10 @@ namespace API.Controllers
             return Ok(userDTO);
         }
         [HttpPost]
-        public IActionResult SignIn( RegisterDTO registerDTO  )
+        public IActionResult SignIn(string name, string email, string password)
         {
             // Kullanıcıyı doğrula
-          _userService.Register(registerDTO);
+            var registerDTO = _userService.Register(name, email, password);
 
             // Başarılı giriş durumunda kullanıcı bilgilerini döner
             return Ok(registerDTO);
