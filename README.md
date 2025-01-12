@@ -5,9 +5,8 @@ Welcome to the **Notification and Task Management System**, a project developed 
 ### Project Overview
 
 This project consists of a backend built with .NET and PostgreSQL, along with a notification system for users. The core features include:
-- **API Data Retrieval**: Periodic retrieval of data from an external API (currency exchange rates) to update the system.
+- **API Data Retrieval**: Periodic retrieval of stock data from the Yahoo Finance API to update the system.
 - **Password Reminder Notifications**: Sending reminders to users to update their passwords at regular intervals.
-- **Task-based Notification System**: Based on conditions like currency exchange rate fluctuations or password update reminders, the system sends notifications to users.
 
 ### Setup and Running Instructions
 
@@ -48,11 +47,12 @@ Follow the steps below to set up and run the project locally.
 ### Features
 
 1. API Data Fetching:
-   The backend periodically fetches currency exchange rates from a specified API. It updates the database every hour with the latest rates.
+   The backend periodically fetches stock data (e.g., AMZN for Amazon, AAPL for Apple) using the Yahoo Finance API. It updates the database every hour with the latest stock prices.
+    To use the stock data feature:
+
+    - Access Swagger UI.
+    - Enter the stock code (e.g., AMZN for Amazon, AAPL for Apple) and your user ID (e.g., 1, 2) for created user.
 
 2. Password Reminder:
-   Users receive a password update reminder every 6 months. The system keeps track of user last password change dates and sends notifications when the next reminder is due.
+   Users receive a password update reminder for specified interval. The system keeps track of user last password change dates and sends notifications when the next reminder is due.
 
-3. Task-based Notifications:
-   The system triggers notifications based on task success or failure, including updates from the API.
-   Additionally, when an anomaly is detected in the currency exchange rate (e.g., a 10% increase), users will receive an alert about the significant change.
