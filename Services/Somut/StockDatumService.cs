@@ -1,6 +1,7 @@
 ﻿using Entities.Models;
 using Repo.Somut;
 using Repo.Soyut;
+using Services.DTO;
 using Services.Soyut;
 using System;
 using System.Collections.Generic;
@@ -22,14 +23,14 @@ namespace Services.Somut
             _userStockRepository = userStockRepository;
             _userRepository = userRepository;
         }
-        public async Task<StockDatum> GetDataFromYahoo(string symbol, int userid/* TimeSpan fetchinterval */ )
+        public async Task<StockDTO> GetDataFromYahoo(string StockSymbol, int userid/* TimeSpan fetchinterval */ )
         {
             // yahoo ya gidiyo input olarak cekiyo 
             // gelen veriyi stockdatuma cevirip db ye kaydediyor/
+            
 
 
-
-            if (string.IsNullOrWhiteSpace(symbol))
+            if (string.IsNullOrWhiteSpace(StockSymbol))
             {
                 throw new ArgumentException("Hisse senedi sembolü belirtilmelidir.");
             }
@@ -37,7 +38,7 @@ namespace Services.Somut
             try
             {
                 // Yahoo Finance API'den veri çek
-                var securities = await Yahoo.Symbols(symbol).Fields(
+                var securities = await Yahoo.Symbols(StockSymbol).Fields(
                     Field.Symbol,
                     Field.RegularMarketPrice,
                     Field.RegularMarketTime,
@@ -46,14 +47,14 @@ namespace Services.Somut
                 ).QueryAsync();
 
                 // Gelen veriyi kontrol et
-                if (!securities.ContainsKey(symbol))
+                if (!securities.ContainsKey(StockSymbol))
                 {
-                    throw new Exception($"Sembol için veri bulunamadı: {symbol}");
+                    throw new Exception($"Sembol için veri bulunamadı: {StockSymbol}");
                 }
 
-                var data = securities[symbol];
+                var data = securities[StockSymbol];
 
-                var existingStockDatum = _repository.Find(sd => sd.StockSymbol == symbol).FirstOrDefault(); // Bu methodu baseRepoda T entity olarak verfigimiz icin Repository si set edilne her servis de bulunan entites ler icin
+                var existingStockDatum = _repository.Find(sd => sd.StockSymbol == StockSymbol).FirstOrDefault(); // Bu methodu baseRepoda T entity olarak verfigimiz icin Repository si set edilne her servis de bulunan entites ler icin
                 // o entitinin fieldlarina erisim saglayabilirirz ornek olarak bu method userservice de userrepo olarak tanimlanirsa user.Userid ye erisim saglayabiliriz
 
                 if (existingStockDatum != null)
@@ -71,7 +72,7 @@ namespace Services.Somut
                     // Yeni bir StockDatum kaydı ekle
                     existingStockDatum = new StockDatum
                     {
-                        StockSymbol = symbol,
+                        StockSymbol = StockSymbol,
                         DataType = "YahooFinance",
                         RegularMarketPrice = Convert.ToDecimal(data.RegularMarketPrice),
                         FiftyTwoWeekHigh = Convert.ToDecimal(data.FiftyTwoWeekHigh),
@@ -87,7 +88,7 @@ namespace Services.Somut
                 {
                     Userid = userid
                 };
-                var checkexistuser = _userRepository.Find(sd => sd.Userid == userid).FirstOrDefault();
+                var checkexistuser = _userRepository.Find(sd => sd.Userid == userid).FirstOrDefault(); // neden ctora ekleyince oluyor da normalde olmuyo??
                 if (checkexistuser == null)
                 {
                     throw new Exception("Kullanıcı bulunamadı.");
@@ -102,11 +103,21 @@ namespace Services.Somut
                 {
                     _userStockRepository.Add(data2);
                 }
+                
 
 
 
+                return new StockDTO
+                {
+                    StockSymbol = StockSymbol,
+                    DataType = existingStockDatum.DataType,
+                    FetchInterval = existingStockDatum.FetchInterval,
+                    LastFetched = existingStockDatum.LastFetched,
+                    RegularMarketPrice = existingStockDatum.RegularMarketPrice,
+                    FiftyTwoWeekHigh = existingStockDatum.FiftyTwoWeekHigh,
+                    FiftyTwoWeekLow = existingStockDatum.FiftyTwoWeekLow
 
-                return existingStockDatum;
+                }; 
             }
             catch (Exception ex)
             {

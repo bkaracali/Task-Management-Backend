@@ -1,4 +1,5 @@
 ﻿using Entities.Models;
+using Services.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace Services.Soyut
 {
     public interface IStockDatumService : IBaseService<StockDatum>
     {
-        public Task<StockDatum> GetDataFromYahoo(string symbol, int userid/* TimeSpan fetchinterval */);
+        public Task<StockDTO> GetDataFromYahoo(string StockSymbol, int userid/* TimeSpan fetchinterval */);
 
 
     }

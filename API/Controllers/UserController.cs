@@ -1,6 +1,7 @@
 ﻿using Entities.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Services.DTO;
 using Services.Soyut;
 
 namespace API.Controllers
@@ -30,12 +31,7 @@ namespace API.Controllers
             return Ok(user);
         }
 
-        [HttpPost]
-        public IActionResult CreateUser(User user)
-        {
-            _userService.Add(user);
-            return CreatedAtAction(nameof(CreateUser), new { id = user.Userid }, user);
-        }
+     
 
         [HttpPut]
         public IActionResult Update(User user)
@@ -49,6 +45,30 @@ namespace API.Controllers
         {
             _userService.Delete(id);
             return NoContent();
+        }
+        [HttpPost]
+        public IActionResult Login(string email, string password)
+        {
+            // Kullanıcıyı doğrula
+            var userDTO = _userService.AuthUser(email, password);
+
+            if (userDTO == null)
+            {
+                // Hatalı giriş durumunda 401 Unauthorized döner
+                return Unauthorized(new { message = "Geçersiz e-posta veya şifre." });
+            }
+
+            // Başarılı giriş durumunda kullanıcı bilgilerini döner
+            return Ok(userDTO);
+        }
+        [HttpPost]
+        public IActionResult SignIn( RegisterDTO registerDTO  )
+        {
+            // Kullanıcıyı doğrula
+          _userService.Register(registerDTO);
+
+            // Başarılı giriş durumunda kullanıcı bilgilerini döner
+            return Ok(registerDTO);
         }
 
 

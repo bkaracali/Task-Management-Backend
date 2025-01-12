@@ -3,88 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\api\\controllers\\stockdatumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|solutionrelative:api\\controllers\\stockdatumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\api\\controllers\\passwordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|solutionrelative:api\\controllers\\passwordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}|Entities\\Entities.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\entities\\models\\userstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}|Entities\\Entities.csproj|solutionrelative:entities\\models\\userstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\somut\\stockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\somut\\stockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\somut\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\somut\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}|Entities\\Entities.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\entities\\models\\passwordtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}|Entities\\Entities.csproj|solutionrelative:entities\\models\\passwordtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\katman1\\somut\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|solutionrelative:katman1\\somut\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\somut\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\somut\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\somut\\userpasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\somut\\userpasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\dto\\passworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\dto\\passworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\soyut\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\soyut\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\soyut\\istockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\soyut\\istockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\somut\\userstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\somut\\userstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\somut\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\somut\\jobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}|Entities\\Entities.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\entities\\models\\admin123context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}|Entities\\Entities.csproj|solutionrelative:entities\\models\\admin123context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}|Entities\\Entities.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\entities\\models\\stockdatum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}|Entities\\Entities.csproj|solutionrelative:entities\\models\\stockdatum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\api\\controllers\\stockdatumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|solutionrelative:api\\controllers\\stockdatumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\soyut\\istockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\soyut\\istockdatumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\dto\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\dto\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{349BF5C7-1055-428D-87EC-5E8E5396B8BB}|API\\API.csproj|solutionrelative:api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\katman1\\soyut\\istockdatumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|solutionrelative:katman1\\soyut\\istockdatumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\somut\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\somut\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\katman1\\somut\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|solutionrelative:katman1\\somut\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\soyut\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\soyut\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}|Entities\\Entities.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40B6C1D7-48FC-4B3E-ABE6-DD8D0E4038F8}|Entities\\Entities.csproj|solutionrelative:entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\katman1\\soyut\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC07AB71-34AA-49CA-8F94-0A277E3C98B0}|Katman1\\Repo.csproj|solutionrelative:katman1\\soyut\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|c:\\users\\kdrcn\\masa\u00FCst\u00FC\\ituc#proje\\services\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6DD16F-52E6-4A25-B570-9AF4585EB2E0}|Services\\Services.csproj|solutionrelative:services\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 235,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -110,269 +78,166 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Katman1\\Somut\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "Katman1\\Somut\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Katman1\\Somut\\BaseRepository.cs",
-              "RelativeToolTip": "Katman1\\Somut\\BaseRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T18:45:56.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "StockDatumController.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Controllers\\StockDatumController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\StockDatumController.cs",
               "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Controllers\\StockDatumController.cs",
               "RelativeToolTip": "API\\Controllers\\StockDatumController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAhwDsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T17:34:07.997Z",
+              "WhenOpened": "2025-01-12T20:04:51.081Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StockDatumService.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\StockDatumService.cs",
-              "RelativeDocumentMoniker": "Services\\Somut\\StockDatumService.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\StockDatumService.cs",
-              "RelativeToolTip": "Services\\Somut\\StockDatumService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T17:43:06.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PasswordController.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Controllers\\PasswordController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\PasswordController.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Controllers\\PasswordController.cs",
-              "RelativeToolTip": "API\\Controllers\\PasswordController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T17:34:06.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PasswordService.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\PasswordService.cs",
-              "RelativeDocumentMoniker": "Services\\Somut\\PasswordService.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\PasswordService.cs",
-              "RelativeToolTip": "Services\\Somut\\PasswordService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T13:25:59.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PasswordTask.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Entities\\Models\\PasswordTask.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\PasswordTask.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Entities\\Models\\PasswordTask.cs",
-              "RelativeToolTip": "Entities\\Models\\PasswordTask.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T13:28:44.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "IStockDatumService.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Soyut\\IStockDatumService.cs",
               "RelativeDocumentMoniker": "Services\\Soyut\\IStockDatumService.cs",
               "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Soyut\\IStockDatumService.cs",
               "RelativeToolTip": "Services\\Soyut\\IStockDatumService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T19:41:38.238Z",
+              "WhenOpened": "2025-01-12T19:58:07.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IPasswordService.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Soyut\\IPasswordService.cs",
-              "RelativeDocumentMoniker": "Services\\Soyut\\IPasswordService.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Soyut\\IPasswordService.cs",
-              "RelativeToolTip": "Services\\Soyut\\IPasswordService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:55:57.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "JobService.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\JobService.cs",
-              "RelativeDocumentMoniker": "Services\\Somut\\JobService.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\JobService.cs",
-              "RelativeToolTip": "Services\\Somut\\JobService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:55:59.598Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:29:39.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 1,
               "Title": "StockDatum.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Entities\\Models\\StockDatum.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\StockDatum.cs",
               "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Entities\\Models\\StockDatum.cs",
               "RelativeToolTip": "Entities\\Models\\StockDatum.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T20:11:49.352Z"
+              "WhenOpened": "2025-01-12T19:56:44.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserPasswordService.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\UserPasswordService.cs",
-              "RelativeDocumentMoniker": "Services\\Somut\\UserPasswordService.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\UserPasswordService.cs",
-              "RelativeToolTip": "Services\\Somut\\UserPasswordService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "StockDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\DTO\\StockDTO.cs",
+              "RelativeDocumentMoniker": "Services\\DTO\\StockDTO.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\DTO\\StockDTO.cs",
+              "RelativeToolTip": "Services\\DTO\\StockDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T17:53:13.211Z",
+              "WhenOpened": "2025-01-12T19:56:34.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StockDatumService.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\StockDatumService.cs",
+              "RelativeDocumentMoniker": "Services\\Somut\\StockDatumService.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\StockDatumService.cs*",
+              "RelativeToolTip": "Services\\Somut\\StockDatumService.cs*",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowGIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T19:37:23.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IStockDatumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Katman1\\Soyut\\IStockDatumRepository.cs",
+              "RelativeDocumentMoniker": "Katman1\\Soyut\\IStockDatumRepository.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Katman1\\Soyut\\IStockDatumRepository.cs",
+              "RelativeToolTip": "Katman1\\Soyut\\IStockDatumRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T19:36:46.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "BaseService.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\BaseService.cs",
-              "RelativeDocumentMoniker": "Services\\Somut\\BaseService.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\BaseService.cs",
-              "RelativeToolTip": "Services\\Somut\\BaseService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowC8AAAAJAAAAAAAAAA==",
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\DTO\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Services\\DTO\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\DTO\\RegisterDTO.cs",
+              "RelativeToolTip": "Services\\DTO\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T17:53:49.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T16:23:36.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PasswordDTO.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\DTO\\PasswordDTO.cs",
-              "RelativeDocumentMoniker": "Services\\DTO\\PasswordDTO.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\DTO\\PasswordDTO.cs",
-              "RelativeToolTip": "Services\\DTO\\PasswordDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Katman1\\Soyut\\IRepository.cs",
+              "RelativeDocumentMoniker": "Katman1\\Soyut\\IRepository.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Katman1\\Soyut\\IRepository.cs",
+              "RelativeToolTip": "Katman1\\Soyut\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T17:50:59.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T22:15:48.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserStock.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Entities\\Models\\UserStock.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\UserStock.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Entities\\Models\\UserStock.cs",
-              "RelativeToolTip": "Entities\\Models\\UserStock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Entities\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Entities\\Models\\User.cs",
+              "RelativeToolTip": "Entities\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:00:51.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T22:10:00.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserStockService.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\UserStockService.cs",
-              "RelativeDocumentMoniker": "Services\\Somut\\UserStockService.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\UserStockService.cs",
-              "RelativeToolTip": "Services\\Somut\\UserStockService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T20:54:52.174Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "API\\appsettings.json",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\appsettings.json",
-              "RelativeToolTip": "API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-10T21:26:16.331Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "admin123Context.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Entities\\Models\\admin123Context.cs",
-              "RelativeDocumentMoniker": "Entities\\Models\\admin123Context.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Entities\\Models\\admin123Context.cs",
-              "RelativeToolTip": "Entities\\Models\\admin123Context.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T21:36:17.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T19:28:22.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Katman1\\Somut\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Katman1\\Somut\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Katman1\\Somut\\UserRepository.cs",
-              "RelativeToolTip": "Katman1\\Somut\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:48:21.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 8,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\Somut\\UserService.cs",
               "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Somut\\UserService.cs",
               "RelativeToolTip": "Services\\Somut\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:18:50.416Z"
+              "WhenOpened": "2025-01-11T22:00:28.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Soyut\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Soyut\\IUserService.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\Soyut\\IUserService.cs",
+              "RelativeToolTip": "Services\\Soyut\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T21:56:59.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "Services\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\Services\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "Services\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T21:56:14.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\kdrcn\\Masa\u00FCst\u00FC\\ItuC#proje\\API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwD8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T18:29:39.247Z",
+              "EditorCaption": ""
             }
           ]
         },
