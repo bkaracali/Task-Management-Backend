@@ -40,7 +40,7 @@ You can set up PostgreSQL either manually or using Docker for convenience.
      ```bash
     docker-compose up -d
     ```
-    This will set up a PostgreSQL instance with default credentials specified in the docker-compose.yml file.
+    This will set up a PostgreSQL instance with default credentials specified in the docker-compose.yml file. You can directly set your credentials in the .env file referenced by docker-compose.yml or manually update them in the file.
 
 3. **Connect to PostgreSQL**:
     Use DBeaver or any PostgreSQL client to connect to the container with the following details:
